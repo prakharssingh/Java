@@ -3,12 +3,6 @@ class Solution {
         if(s.length()%2==1){
             return false;
         }
-        // if(locked.charAt(0)==1&&s.charAt(0)==')'){
-        //     return false;
-        // }
-        // if(locked.charAt(s.length()-1)==1&&s.charAt(s.length()-1)=='('){
-        //     return false;
-        // }
         int l = 0, r = 0;
         //left to right traversal
         for(int i = 0 ; i<s.length() ; i++){
